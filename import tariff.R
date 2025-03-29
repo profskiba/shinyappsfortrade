@@ -1,5 +1,8 @@
 library(shiny)
 library(ggplot2)
+library(rsconnect)
+
+rsconnect::writeManifest()
 
 ui <- fluidPage(
   titlePanel("Effects of Import Tariff for a Small Open Economy"),
